@@ -1,7 +1,7 @@
 import PusherServer from 'pusher';
 import PusherClient from 'pusher-js';
 
-const CLUSTER = 'us3'
+const CLUSTER = 'eu'
 
 declare global {
     var pusherServerInstance: PusherServer | undefined;
